@@ -69,6 +69,7 @@ OvhCloud    ``symfony/ovh-cloud-notifier``    ``ovhcloud://APPLICATION_KEY:APPLI
 Sendinblue  ``symfony/sendinblue-notifier``   ``sendinblue://API_KEY@default?sender=PHONE``
 Sinch       ``symfony/sinch-notifier``        ``sinch://ACCOUNT_ID:AUTH_TOKEN@default?from=FROM``
 Smsapi      ``symfony/smsapi-notifier``       ``smsapi://TOKEN@default?from=FROM``
+SpotHit     ``symfony/spot-hit-notifier``     ``spothit://api_token@default?from=FROM``
 Twilio      ``symfony/twilio-notifier``       ``twilio://SID:TOKEN@default?from=FROM``
 ==========  ================================  ====================================================
 
@@ -82,7 +83,7 @@ Twilio      ``symfony/twilio-notifier``       ``twilio://SID:TOKEN@default?from=
 
 .. versionadded:: 5.3
 
-    The Iqsms, GatewayApi, Octopush and AllMySms integrations were introduced in Symfony 5.3.
+    The Iqsms, GatewayApi, Octopush, AllMySms and SpotHit integrations were introduced in Symfony 5.3.
 
 
 To enable a texter, add the correct DSN in your ``.env`` file and
